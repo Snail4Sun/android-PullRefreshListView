@@ -16,6 +16,12 @@
             android:layout_gravity="center"
             android:minWidth="40dip"
             android:src="@drawable/common_listview_headview_red_arrow" />
+        <ProgressBar 
+            android:id="@+id/iv_listview_header_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
     </FrameLayout>
 
     <LinearLayout
